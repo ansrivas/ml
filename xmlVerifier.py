@@ -7,8 +7,7 @@ Created on Mon Sep  1 13:42:42 2014
 
 from xml.sax.handler import ContentHandler
 from xml.sax import make_parser
-from glob import glob
-import sys,os
+import os
 
 def parsefile(file):
     parser = make_parser()
